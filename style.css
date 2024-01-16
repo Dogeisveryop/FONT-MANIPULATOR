@@ -1,0 +1,24 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    color:darkturquoise;
+    font-size: 25px;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 35px;
+}
+
+@keyframes example {
+    from{box-shadow: 2px 2px 40px red;}
+    to{box-shadow: 2px 2px 40px rgb(92, 0, 128);}
+}
